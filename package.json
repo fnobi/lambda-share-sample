@@ -1,7 +1,7 @@
 {
-  "name": "kayac-html5-starter",
+  "name": "lambda-share-sample",
   "version": "0.0.0",
-  "description": "kayac-html5-starter development.",
+  "description": "lambda-share-sample development.",
   "author": "Kayac Inc.",
   "license": "MIT",
   "scripts": {

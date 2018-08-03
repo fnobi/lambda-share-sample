@@ -1,4 +1,4 @@
-kayac-html5-starter
+lambda-share-sample
 ====
 
 ## 事前に用意するもの
