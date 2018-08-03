@@ -1,4 +1,9 @@
-const randomstring = require("randomstring");
+/*
+- requireを直接的に使うのは難しそう
+  - netlify-lambda をつっこもう その方がデバッグもやりやすそう
+- env的なものがない？
+- 外部ファイル読み込める？
+*/
 
 exports.handler = function({
     path,
@@ -17,8 +22,7 @@ exports.handler = function({
     }
     const res = {
         path,
-        id,
-        chara: randomstring.generate(),
+        id
     };
     callback(null, {
         statusCode: 200,
